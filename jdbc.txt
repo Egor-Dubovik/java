@@ -1,0 +1,1 @@
+intelliJ IDEA -> file -> project stucture -> Libraries -> click to + -> Java
