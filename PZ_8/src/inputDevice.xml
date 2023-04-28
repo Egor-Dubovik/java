@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Device>
+    <Component>
+        <Name>Hard drive</Name>
+        <Origin>USA</Origin>
+        <Price>100</Price>
+        <Type>Peripheral</Type>
+        <Type>Energy consumption (watts)</Type>
+        <Type>Cooler</Type>
+        <Type>Input/output devices</Type>
+        <Port>USB</Port>
+        <Critical>true</Critical>
+    </Component>
+</Device>
