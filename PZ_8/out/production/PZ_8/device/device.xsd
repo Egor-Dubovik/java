@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Device">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Component" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="Name" type="xs:string" use="required"/>
+            <xs:attribute name="Origin" type="xs:string" use="required"/>
+            <xs:attribute name="Price" type="xs:nonNegativeInteger" use="required"/>
+            <xs:attribute name="Type">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="Peripheral"/>
+                  <xs:enumeration value="Non-Peripheral"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="EnergyConsumption" type="xs:nonNegativeInteger" use="required"/>
+            <xs:attribute name="Cooler">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="Yes"/>
+                  <xs:enumeration value="No"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="Group">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="InputOutput"/>
+                  <xs:enumeration value="Multimedia"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="Ports" type="xs:string"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="Critical" type="xs:boolean" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

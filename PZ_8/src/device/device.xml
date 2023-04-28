@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Device xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="device.xsd" Critical="true">
+    <Component Name="CPU" Origin="USA" Price="15000" Type="Peripheral" EnergyConsumption="95" Cooler="Yes" Group="InputOutput" Ports="USB"/>
+    <Component Name="RAM" Origin="Korea" Price="8000" Type="Peripheral" EnergyConsumption="3" Cooler="No" Group="InputOutput" Ports="USB"/>
+    <Component Name="Motherboard" Origin="Taiwan" Price="12000" Type="Non-Peripheral" EnergyConsumption="60" Cooler="Yes" Group="InputOutput" Ports="USB, LPT"/>
+    <Component Name="Keyboard" Origin="China" Price="1000" Type="Peripheral" EnergyConsumption="1" Cooler="No" Group="InputOutput" Ports="USB"/>
+    <Component Name="Mouse" Origin="China" Price="500" Type="Peripheral" EnergyConsumption="1" Cooler="No" Group="InputOutput" Ports="USB"/>
+    <Component Name="Speakers" Origin="Taiwan" Price="2000" Type="Non-Peripheral" EnergyConsumption="10" Cooler="No" Group="Multimedia" Ports="USB"/>
+    <Component Name="Monitor" Origin="Korea" Price="20000" Type="Non-Peripheral" EnergyConsumption="80" Cooler="No" Group="InputOutput" Ports="COM, USB"/>
+</Device>
